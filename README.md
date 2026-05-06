@@ -76,22 +76,6 @@ Each form submission fires a single `POST /generate` that returns a `text/event-
 
 ---
 
-## Deploy
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template)
-
-### Environment variables
-
-| Variable | Required | Description |
-|----------|----------|-------------|
-| `ANTHROPIC_API_KEY` | ✅ | Claude API key — get one at console.anthropic.com |
-| `DATABASE_URL` | ✅ | Postgres connection string (Railway provisions this automatically) |
-| `BACKEND_URL` | frontend only | URL of the FastAPI service, e.g. `https://your-app.railway.app` |
-
-For Railway: add the Postgres plugin to get `DATABASE_URL` injected automatically. Set `ANTHROPIC_API_KEY` manually. Point the frontend's `BACKEND_URL` at the backend service URL.
-
----
-
 ## Tech stack
 
 | Tool | Why |
