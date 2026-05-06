@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+frontend/.next/
+frontend/.turbopack/
+
+# env files (never commit real keys)
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# misc
+.DS_Store
+*.tsbuildinfo
